@@ -1,0 +1,10 @@
+<h1><%= @project.proj_name %></h1>
+<h3><%= @project.architect %></h3>
+<h3><%= @project.year %></h3>
+<h3><%= @project.location %></h3>
+<h4><%= @project.description %></h4>
+
+<img width=350px src="/images/<%= @project.sketch %>"/>
+<img width=350px src="/images/<%= @project.images[0] %>"/>
+<img width=350px src="/images/<%= @project.images[1] %>"/>
+<img width=350px src="/images/<%= @project.images[2] %>"/>
