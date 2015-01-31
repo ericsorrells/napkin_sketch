@@ -1,19 +1,22 @@
 <%= erb :_navbar %>
-
 <br>
 
 <!-- Select a Sketch That Draws Your Interest: -->
-<section class="container">
-  <div class="row">
+<section class="container" style="text-align:center">
+  <div class="row nav_text">
     <% @projects.each do |project| %>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" text-align="bottom">    
-        <img width=150px height=150px src="/images/<%= project.sketch %>"/>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 proj_images">
         <a href="projects/<%= project.id %>">
-          <%= project.proj_name %>
-        </a>
-        <%= project.architect %>
-        <%= project.year %>
-        <%= project.location %>
+          <img width=200px height=200px class="proj_images" src="/images/<%= project.sketch %>"/>
+        </a>  
+        <dl class="proj_text proj_margins">
+          <dt>
+            <div><%= project.proj_name %>
+          </dt>
+          <dd><%= project.architect %></dd>
+          <dd><%= project.year %></dd>
+          <dd><%= project.location %></dd>
+        </dl>
       </div>
     <% end %>
   </div>

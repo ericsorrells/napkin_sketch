@@ -1,12 +1,15 @@
 <%= erb :_navbar %>
 
-<h1><%= @project.proj_name %></h1>
-<h3><%= @project.architect %></h3>
-<h3><%= @project.year %></h3>
-<h3><%= @project.location %></h3>
-<h4><%= @project.description %></h4>
+<section class="container">
+  <h1><%= @project.proj_name %></h1>
+  <hr>
+  <h6><%= @project.architect %></h6>
+  <h6><%= @project.year %></h6>
+  <h6><%= @project.location %></h6>
+  <h6><%= @project.description %></h6>
 
-<img width=350px src="/images/<%= @project.sketch %>"/>
-<img width=350px src="/images/<%= @project.images[0] %>"/>
-<img width=350px src="/images/<%= @project.images[1] %>"/>
-<img width=350px src="/images/<%= @project.images[2] %>"/>
+  <img width=350px src="/images/<%= @project.sketch %>"/>
+  <img width=350px src="/images/<%= @project.images[0] %>"/>
+  <img width=350px src="/images/<%= @project.images[1] %>"/>
+  <img width=350px src="/images/<%= @project.images[2] %>"/>
+</section>
