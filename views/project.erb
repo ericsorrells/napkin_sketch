@@ -9,7 +9,24 @@
   <h6><%= @project.description %></h6>
 
   <img width=350px src="/images/<%= @project.sketch %>"/>
-  <img width=350px src="/images/<%= @project.images[0] %>"/>
-  <img width=350px src="/images/<%= @project.images[1] %>"/>
-  <img width=350px src="/images/<%= @project.images[2] %>"/>
+
+  <div class="ia-container">               
+      <figure>
+        <img width=750px  height:750px src="/images/<%= @project.images[0] %>"/>
+        <input type="radio" name="radio-set" checked="checked" />
+           
+          <figure>
+            <img width=750px height:750px src="/images/<%= @project.images[1] %>"/>
+            <input type="radio" name="radio-set" />
+               
+              <figure>
+                <img width=750px  height:750px src="/images/<%= @project.images[2] %>"/>
+                <input type="radio" name="radio-set" />
+                                        
+              </figure>
+          </figure>         
+      </figure>     
+  </div>
+
 </section>
+
