@@ -10,6 +10,54 @@ hr{
 }
 
 
+
+
+/*Project Page Styles*/
+
+.button {
+    display: block;
+    height: 30px;
+    width: 250px;
+    background: #000000;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    color:white;
+    margin-bottom:50px;
+  }
+
+  /*Carousel Styling*/
+.slider-size {
+height: 400px; /* This is your slider height */
+}
+
+.carousel {
+width:100%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
+}
+
+.float_left{
+  float:left;
+}
+
+.float_right{
+  float:right;
+}
+
+.hr_format{
+  margin-top:30px;
+}
+
+.proj_info{
+  float:left; 
+  text-align: left;
+  padding-top:0px;
+}
+
+.proj_description{
+  float:right; 
+  text-align: left;
+}    
+
+
 /*Home Page Styling*/
 
 #full-screen-background-image {
@@ -89,8 +137,9 @@ hr{
 }
 
 .arrows{
-  float:left; height:20%; 
-  width: 30%; 
+  float:left; 
+  height:15%; 
+  width: 25%; 
   margin-top:50px; 
   margin-left: 50px;
 }
@@ -356,48 +405,3 @@ section.module.parallax-3 {
     } 
  
 }
-
-
-/*Project Page Styles*/
-
-.button {
-    display: block;
-    height: 30px;
-    width: 350px;
-    background: #000000;
-    border: 2px solid rgba(33, 68, 72, 0.59);
-    color:white;
-    margin-bottom:50px;
-  }
-
-  /*Carousel Styling*/
-.slider-size {
-height: 400px; /* This is your slider height */
-}
-
-.carousel {
-width:100%; 
-margin:0 auto; /* center your carousel if other than 100% */ 
-}
-
-.float_left{
-  float:left;
-}
-
-.float_right{
-  float:right;
-}
-
-.hr_format{
-  margin-top:30px;
-}
-
-.proj_info{
-  float:left; 
-  padding-top:0px
-}
-
-.proj_description{
-  float:right; 
-  width:624px
-}    
