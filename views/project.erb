@@ -1,7 +1,7 @@
 <%= erb :_navbar %>
 <br>
 
-<section class="container">
+<section class="container-full">
   <div class="row col-sm-4">
     <img width=300px src="/images/<%= @project.sketch %>" class="float_left"/>
 
@@ -52,7 +52,7 @@
 
 <section class="container">
   <div class="row">
-    <div class="col-xs-4 proj_images">
+    <div class="col-xs-5 proj_images">
       <div class="proj_info" >
         <h2><%= @project.proj_name %></h2>
         <h6><%= @project.architect %></h6>
@@ -65,7 +65,7 @@
       </div>
     </div>  
 
-    <div class="col-xs-8 proj_images">
+    <div class="col-xs-7 proj_images">
       <div class="proj_description">
         <h6><%= @project.description %></h6>
       </div>
