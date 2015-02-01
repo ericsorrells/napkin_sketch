@@ -19,3 +19,9 @@ get '/projects/:id' do
   puts "project = #{@project}"
   erb :project
 end
+
+get '/explore' do
+  @projects = Projects.all
+  @arrows   = ["Graphic-Arrow1.jpg", "Graphic-Arrow2.jpg", "Graphic-Arrow3.jpg"]
+  erb :explore
+end
