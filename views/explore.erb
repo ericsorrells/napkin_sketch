@@ -1,0 +1,52 @@
+<%= erb :_navbar %>
+
+<% @projects.each do |project| %>
+  <!-- Background Info -->
+  <section class="module parallax parallax-1">
+    <div class="container">
+    </div>
+  </section>
+  <!-- Module Content -->
+  <section class="module content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <!-- Sketch -->
+          <a href="/projects/<%=project.id%>">
+            <img width=200px height=200px class="proj_images sketches" src="/images/<%= project.sketch %>"/>
+          </a>
+          
+          <!-- Arrow Image -->
+          <img src="/images/<%=@arrows.sample%>" class="arrows">
+          
+          <!-- Image Carousel -->
+           <div class="ia-container" style="float: right; height:250px">               
+              <figure>
+                <img width=750px  height:750px src="/images/<%= project.images[0] %>"/>
+                <input type="radio" name="radio-set" checked="checked" />
+               
+                <figure>
+                  <img width=750px height:750px src="/images/<%= project.images[1] %>"/>
+                  <input type="radio" name="radio-set" />
+                   
+                  <figure>
+                      <img width=750px  height:750px src="/images/<%= project.images[2] %>"/>
+                      <input type="radio" name="radio-set" />                                
+                  </figure>
+                </figure>         
+              </figure>     
+            </div> <!-- End Image Carousel -->
+          <div>  
+        <div>      
+    </div>
+
+      <h4 class="explore_text"><%= project.proj_name %></h5>
+      <h5 class="explore_text"><%= project.architect %></h6>
+      <h5 class="explore_text"><%= project.year %></h6>
+      <h5 class="explore_text"><%= project.location %></h6>
+
+  </section>
+
+<% end %>
+

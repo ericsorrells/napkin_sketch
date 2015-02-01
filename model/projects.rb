@@ -33,7 +33,7 @@ class Projects
         description: "In 1987, Lilian Disney donated $50 million to establish a 
         concert hall in honor of her late husband, Walt Disney. The exterior is 
         a composition of undulating and angled forms, symbolizing musical 
-        movement and the motion of Los Angles. The design developed through 
+        movement and the motion of Los Angles. The design was developed through 
         paper models and sketches, characteristic of Gehry’s process.",
         sketch: "Sketch-FrankGehry-DisneyConcertHall.jpg",
         images: ["Image-FrankGehry-DisneyConcertHall1.jpg",
@@ -43,20 +43,19 @@ class Projects
       Project.new(
         id:3,
         architect:"I.M. Pei", 
-        proj_name: "Grand Duke Jean Museum of Modern Art [MUDAM]", 
+        proj_name: "Grand Duke Jean Museum", 
         year: 2006, 
         location: "Luxembourg City, Luxembourg", 
-        description: "The building, by famous Sino-American architect Ieoh Ming 
-        Pei, is a marvellous dialogue between the natural and historical 
-        environment. Standing against the vestiges of Fort Thüngen, it follows 
-        the course of the former surrounding walls, and is rooted in the Park 
+        description: "The building is a marvellous dialogue between the 
+        natural and historical environment. Standing against the vestiges of Fort Thüngen, 
+        it follows the course of the former surrounding walls, and is rooted in the Park 
         Dräi Eechelen. The skillful play between interior and exterior, 
         multiplying the selected views onto the park environment whilst opening 
-        onto the sky thanks to the audacious glass canopy, is highlighted 
-        through the use of the covering in Magny Doré, a honey-coloured 
+        onto the sky thanks to the glass canopy, is highlighted 
+        through the use of the covering in a honey-coloured 
         limestone which assumes, at any time of the day and in all seasons, 
         subtle nuances depending on the light which it reflects.",
-        sketch: "Sketch-IMPei-Musée d'Art Moderne in Luxembourg.jpg",
+        sketch: "Sketch-IMPei-Museum_of_Modern_Art _in_Luxembourg.jpg",
         images: ["Image-IMPei-Musee.jpg",
                 "Image-IMPei-Musee2.jpg",
                 "Image-IMPei-Musee3.jpg"] 
@@ -69,7 +68,7 @@ class Projects
         location: "Ontario, Canada", 
         description: "The extension to the Royal Ontario Museum (ROM), now 
         named the Michael Lee-Chin Crystal, is situated at one of the most 
-        prominent intersections in downtown central Toronto.  It is the largest 
+        prominent intersections in downtown central Toronto. It is the largest 
         Museum in Canada and attracts more than a million visitors a year. Its 
         new name is derived from the building’s five intersecting metal-clad 
         volumes, which are reminiscent of crystals—inspired by the crystalline 
@@ -98,7 +97,7 @@ class Projects
         visual fidelity with ever-greater technical virtuosity, Blur is 
         decidedly low-definition: there is nothing to see but our dependence on 
         vision itself.",
-        sketch: "Sketch-LizDiller-Blur.jpeg",
+        sketch: "Sketch-LizDiller-Blur.jpg",
         images: ['Image-DS-Blur1.jpg', 'Image-DS-Blur2.jpg', 'Image-DS-Blur3.jpg']
       ),
       Project.new(
@@ -108,7 +107,7 @@ class Projects
         year: 1924, 
         location:"Potsdam, Germany" , 
         description:"The Einstien Tower is an astrophysical observatory in the 
-        Albert Einstein Science Park in Potsdam, Germany built by Erich 
+        Albert Einstein Science Park in Potsdam, Germany, built by Erich 
         Mendelsohn. It was built on the summit of the Potsdam Telegraphenberg to
          house a solar telescope designed by the astronomer Erwin 
          Finlay-Freundlich. The telescope supports experiments and observations 
@@ -127,7 +126,7 @@ class Projects
       Project.new(
         id:7,
         architect:"Renzo Piano", 
-        proj_name:"The London Bridge Tower [The Shard]", 
+        proj_name:"The Shard", 
         year: 2013, 
         location: "London, England", 
         description: "The London Bridge Tower, also known as the Shard, is a 
@@ -169,7 +168,7 @@ class Projects
       ),
       Project.new(
         id:9,
-        architect:"Hugh Stubbins and Associates", 
+        architect:"Hugh Stubbins & Assoc's", 
         proj_name:"Citicorp Center", 
         year: 1978, 
         location: "New York, NY", 
@@ -179,7 +178,7 @@ class Projects
         restaurants and performance spaces on a number of levels at the base of 
         a rather uninteresting square-format, smooth-faced office tower, chopped 
         off at 45 degrees at the top, ostensibly to facilitate solar collection 
-        devices. On the second storey, the old church has found a spacious 
+        devices. On the second storey, the old church has found a spacious, 
         comfortable new home devoting its services to God and jazz.",
         sketch: "Sketch-Stubbins-CitiCorp.jpg",
         images: ["Image-Stubbins-CitiCorp1.jpg",
@@ -189,7 +188,7 @@ class Projects
       Project.new(
         id:10,
         architect:"Zaha Hadid", 
-        proj_name:"New Dance and Music Centre", 
+        proj_name:"Dance & Music Centre", 
         year:2010, 
         location:"The Hague, The Netherlands", 
         description:"The design concept is developed from an understanding of 
