@@ -3,14 +3,14 @@
 
 <section class="container">
   <div class="row col-sm-4">
-    <img width=350px src="/images/<%= @project.sketch %>" class="float_left"/>
+    <img width=300px src="/images/<%= @project.sketch %>" class="float_left"/>
 
     <h5 style="clear: left; margin-top:10px">Initial Design Sketch</h5>
   </div>  
 
 <!-- Carousel -->
   <div class="row col-sm-8" style="float:right">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 624px; height:351px; float:right; margin: 0 auto">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 600px; height:351px; float:right; margin: 0 auto">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -50,20 +50,26 @@
 
 <hr class="hr_format">
 
-<section class="container" style="float:left">
-  <div class="proj_info">
-    <h1><%= @project.proj_name %></h1>
-    <h6><%= @project.architect %></h6>
-    <h6><%= @project.year %></h6>
-    <h6><%= @project.location %></h6>
+<section class="container">
+  <div class="row">
+    <div class="col-xs-4 proj_images">
+      <div class="proj_info" >
+        <h2><%= @project.proj_name %></h2>
+        <h6><%= @project.architect %></h6>
+        <h6><%= @project.year %></h6>
+        <h6><%= @project.location %></h6>
 
-    <div class="back">
-      <button class="button" onclick="window.history.back()">Back To Sketches</button>
+        <div class="back">
+          <button class="button" onclick="window.history.back()">Back To Sketches</button>
+        </div>
+      </div>
+    </div>  
+
+    <div class="col-xs-8 proj_images">
+      <div class="proj_description">
+        <h6><%= @project.description %></h6>
+      </div>
     </div>
   </div>
-
-  <div class="proj_description">
-    <h6><%= @project.description %></h6>
-  </div>
-</sectio  n>
+</section>
 
